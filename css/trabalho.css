@@ -9,8 +9,6 @@ body {
     color: rgb(3, 3, 3);
 }
 
-/*começa aqq*/
-
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -41,8 +39,6 @@ body {
     font-family: 'Libre Caslon Display', serif;
 }
 
-/*termina aqui*/
-
 .search-form {
     display: flex;
     justify-content: right;
@@ -67,8 +63,6 @@ body {
     padding: 20px;
 }
 
-/*aqqq livro rating loucaaa*/
-
 .rating {
     margin-top: 5px;
     color: #880808;
@@ -80,8 +74,6 @@ body {
     color:#880808;
     font-size: 40px;
 }
-
-/*nao se perde, esse do meio é as estrelas*/
 
 .card {
     background-color: #fff;
@@ -97,8 +89,6 @@ body {
 .card-text {
     font-size: 14px;
 }
-
-/*aq abaixo fica about us nao se perdeeeee*/
 
 .main-content {
     max-width: 800px;
@@ -127,29 +117,6 @@ body {
     margin-bottom: 20px;
 }
 
-/*aqq testesss*/
-
-
-.sGnup-notice {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-    background-color: #ffffff;
-    border: 1px solid #800101;
-    border-radius: 5px;
-}
-
-.sGnup-notice p {
-    font-size: 20px;
-    font-weight: bold;
-    color: #960000;
-}
-
-
-/*ai em cima n ta funcionanado aindaa*/
-
-
-
 .signup {
     padding: 20px;
     background-color: #ffffff;
@@ -158,11 +125,9 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-
-/*isso ai no meio em cima é teste menos o 1 bagulhooo*/
-
 .intro {
     text-align: center;
+    font-family: 'Libre Caslon Display', cursive;  
     padding: 40px 20px; 
     background-color: #ffffff; 
     border-bottom: 1px solid #cecccc; 
@@ -189,18 +154,20 @@ body {
 }
 
 .description {
+    font-family: 'Libre Caslon Display', cursive;  
     flex: 2; 
     margin-right: 20px;
 }
 
 .description h2 {
-    font-size: 28px; 
-    color: #9F0707; 
+    font-size: 40px; 
+    color: #520b0b; 
 }
 
 .description p {
-    font-size: 16px; 
+    font-size: 30px; 
     line-height: 1.5; 
+    color: #9F0707;
 }
 
 .quote {
@@ -233,31 +200,34 @@ body {
 }
 
 .footer {
-    background-color: #e9e4e452;
-    color: #3a2424;
-    display:flex;
-    text-align: left;
-    padding: 10px;
-    font-size: 14px;
-    border-top: 3px solid rgba(136, 129, 129, 0.685);
+    background-color: #e9e4e452;             
+    color: #3a2424;                          
+    display: flex;                           
+    text-align: left;                         
+    padding: 10px;                           
+    font-size: 14px;                          
+    border-top: 3px solid rgba(136, 129, 129, 0.685); 
+    flex-direction: column;                   
 }
 
 .footer-socials {
-    display: flex;
-    gap: 20px;
+    display: flex;                            
+    gap: 20px;                               
+    flex-wrap: wrap;                         
+    margin-top: 10px;                        
 }
 
 .social-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-family: 'Keania One', cursive;
-    font-size: 16px;
+    display: flex;                            
+    align-items: center;                      
+    gap: 10px;                               
+    font-family: 'Keania One', cursive;      
+    font-size: 16px;                        
 }
 
 .social-item img {
-    width: 20px;
-    height: 20px;
+    width: 20px;                             
+    height: 20px;                            
 }
 
 @media (max-width: 1920px) {
