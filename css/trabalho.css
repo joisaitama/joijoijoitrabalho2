@@ -71,13 +71,13 @@ body {
 
 .rating {
     margin-top: 5px;
-    color: #ff9900;
-    font-size: 14px;
+    color: #880808;
+    font-size: 20px;
 }
 
 .rating2 {
     margin-top: 5px;
-    color: #ff9900;
+    color:#880808;
     font-size: 40px;
 }
 
@@ -107,22 +107,23 @@ body {
     line-height: 1.6;
     border-bottom: 1px solid #d8c9c9;
     border-top: 1px solid #cecccc;
+    font-family: 'Libre Caslon Display', cursive;  
 }
 
 .main-content h1 {
-    font-size: 36px;
+    font-size: 40px;
     color: #9F0707;
     margin-bottom: 10px;
 }
 
 .main-content h2 {
-    font-size: 28px;
+    font-size: 30px;
     color: #9F0707;
     margin-bottom: 10px;
 }
 
 .main-content p {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 20px;
 }
 
